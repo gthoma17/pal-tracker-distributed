@@ -10,6 +10,7 @@ resources:
 - name: version
   type: semver
   source:
+    initial_version: 0.0.1
     bucket: {{aws-bucket}}
     key: pal-tracker/current-version
     access_key_id: {{aws-access-key-id}}
