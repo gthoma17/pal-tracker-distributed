@@ -7,3 +7,7 @@ build
 .DS_Store
 .env
 ci/variables.yml
+components/rest-support/out
+components/test-support/out
+integration-test/out
+
