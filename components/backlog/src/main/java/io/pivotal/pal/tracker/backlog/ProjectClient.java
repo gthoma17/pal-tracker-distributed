@@ -29,7 +29,7 @@ public class ProjectClient {
         return project;
     }
 
-    public  ProjectInfo getProjectFromCache(long projectId){
+    public ProjectInfo getProjectFromCache(long projectId) {
         logger.info("Getting project with id {} from cache", projectId);
         return projectsCache.get(projectId);
     }
