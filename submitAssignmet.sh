@@ -3,4 +3,6 @@ cd ~/workspace/assignment-submission
     -PregistrationServerUrl=https://registration-pal-gat.apps.longs.pal.pivotal.io/ \
     -PbacklogServerUrl=https://backlog-pal-gat.apps.longs.pal.pivotal.io/ \
     -PallocationsServerUrl=https://allocations-pal-gat.apps.longs.pal.pivotal.io/ \
-    -PtimesheetsServerUrl=https://timesheets-pal-gat.apps.longs.pal.pivotal.io/
+    -PtimesheetsServerUrl=https://timesheets-pal-gat.apps.longs.pal.pivotal.io/ \
+    -PactuatorUsername=actuator \
+    -PactuatorPassword=operations4red
